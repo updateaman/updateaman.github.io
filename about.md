@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm an experienced .net developer focused on serverless technologies
 
 ### More Information
 
-I'm an experienced .net developer focused on serverless technologies
+This is a place I will share my learning journey
 
 ### Contact me
 
