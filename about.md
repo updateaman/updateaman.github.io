@@ -8,7 +8,7 @@ I'm an experienced .net developer focused on serverless technologies
 
 ### More Information
 
-This is a place I will share my learning journey
+This is a place I will share my learning journey :+1:
 
 ### Contact me
 
