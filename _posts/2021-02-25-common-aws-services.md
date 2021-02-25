@@ -1,4 +1,7 @@
-# Common AWS Services
+---
+layout: post
+title: Common AWS services
+---
 
 AWS is the most popular cloud services provider in the world. It offers a lot of services for building highly available, scalable and resilient business solutions. AWS helps companies with variety of IAAS, PAAS and SAAS services offerings.
 
