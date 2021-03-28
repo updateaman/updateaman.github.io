@@ -75,4 +75,7 @@ exclude:
   - README.md
   - CNAME
 
+include: 
+  - _pages
+
 theme: jekyll-theme-hacker
