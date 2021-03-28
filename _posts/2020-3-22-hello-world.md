@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Up and running!
-categories: [intro]
-tags: [intro]
+categories: blog
+tag: hello world
 ---
 
 Hi,
