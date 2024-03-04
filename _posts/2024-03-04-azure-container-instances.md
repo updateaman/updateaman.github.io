@@ -149,7 +149,7 @@ definition:
 
 ```
 
-[<img src="/assets/images/logic-app-aci.png" alt="Logic Apps Azure Container Instance Integration" style="width: 400px;"/>]
+<img src="/assets/images/logic-app-aci.png" alt="Logic Apps Azure Container Instance Integration"/>
 
 
 ### Conclusion
