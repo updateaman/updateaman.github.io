@@ -1,4 +1,11 @@
-# Performance Optimization Techniques for .NET 8
+---
+layout: post
+title: Performance Optimization Techniques for .NET 8
+tags: net8 dotnet performance optimsation
+categories: blog
+date: 2024-10-20
+---
+
 .NET 8 brings many performance improvements, but understanding how to optimize your code is essential for getting the most out of these enhancements. This blog will delve into various strategies to optimize .NET 8 applications, complete with code examples demonstrating each technique.
 
 
