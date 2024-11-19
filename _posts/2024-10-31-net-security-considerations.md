@@ -1,6 +1,6 @@
 ---
 layout: post
-title: .NET Security Cheat Sheet: Safeguarding Your Applications
+title: '.NET Security Cheat Sheet: Safeguarding Your Applications'
 tags: .net dotnet net8 security
 categories: blog
 date: 2024-11-17
