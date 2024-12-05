@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '.NET Performance Analysis: `Newtonsoft.Json` vs `System.Text.Json` in .NET 9'
+title: '.NET Performance Analysis: Newtonsoft.Json vs System.Text.Json in .NET 9'
 tags: json parsing performance
 categories: blog
 date: 2024-12-02
