@@ -56,6 +56,7 @@ public void JsonConvert_Deserialize_BigData()
 ```
 
 ### Results
+
 | Method                             | Count | Mean     | Error    | StdDev   | Ratio | RatioSD | Allocated | Alloc Ratio |
 |----------------------------------- |------ |---------:|---------:|---------:|------:|--------:|----------:|------------:|     
 | JsonSerializer_Deserialize_BigData | 10000 | 20.88 ms | 0.394 ms | 0.368 ms |  0.78 |    0.02 |   3.72 MB |        0.85 |     
@@ -86,6 +87,7 @@ In this scenario, we test the deserialization of multiple small JSON objects.
     }
 ```
 ### Results
+
 | Method                               | Count | Mean     | Error    | StdDev   | Ratio | Allocated | Alloc Ratio |
 |------------------------------------- |------ |---------:|---------:|---------:|------:|----------:|------------:|
 | JsonSerializer_Deserialize_SmallData | 10000 | 11.36 ms | 0.122 ms | 0.115 ms |  0.63 |   7.96 MB |        0.26 |
@@ -111,6 +113,7 @@ public void JsonConvert_Serialize_BigData()
 ```
 
 ### Results
+
 | Method                           | Count | Mean      | Error     | StdDev    | Ratio | RatioSD | Allocated | Alloc Ratio |    
 |--------------------------------- |------ |----------:|----------:|----------:|------:|--------:|----------:|------------:|    
 | JsonSerializer_Serialize_BigData | 10000 |  7.784 ms | 0.0830 ms | 0.0736 ms |  0.66 |    0.02 |   2.69 MB |        0.42 |    
