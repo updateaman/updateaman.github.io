@@ -143,6 +143,7 @@ This is a common scenario where we serialize several small data objects to JSON.
     }
 ```
 ### Results
+
 | Method                             | Count | Mean      | Error     | StdDev    | Ratio | Allocated | Alloc Ratio |
 |----------------------------------- |------ |----------:|----------:|----------:|------:|----------:|------------:|
 | JsonSerializer_Serialize_SmallData | 10000 |  7.917 ms | 0.0683 ms | 0.0605 ms |  0.72 |   5.89 MB |        0.33 |
