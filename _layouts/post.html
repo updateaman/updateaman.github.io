@@ -2,13 +2,33 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<article class="post-single">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="post-meta">
+    <span class="post-date">📅 {{ page.date | date: "%-d %B %Y" }}</span>
+    {% include reading_time.html %}
+    {% if page.tags %}
+      <span class="tags-label">Tags:</span>
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    {% endif %}
+  </div>
 
-{% include reading_time.html %}
+  <hr>
 
-{{content}}
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+  {% if page.tags %}
+    <hr>
+    <div class="post-tags">
+      <strong>Tagged with:</strong>
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+</article>
